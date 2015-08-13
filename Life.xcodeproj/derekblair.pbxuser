@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	2D2E34DC119B657400818397 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8F85216C124BC0430061F410 /* Life */;
+		activeTarget = 2D2E34E8119B65B100818397 /* Life */;
+		codeSenseManager = 8F852175124BC0620061F410 /* Code sense */;
+		executables = (
+			8F85216C124BC0430061F410 /* Life */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315718545;
+			PBXWorkspaceStateSaveDate = 315718545;
+		};
+		perUserProjectItems = {
+			8F39072E128A25F600F6A508 /* PBXTextBookmark */ = 8F39072E128A25F600F6A508 /* PBXTextBookmark */;
+			8FD0602E12D1801F00FA69ED /* PBXTextBookmark */ = 8FD0602E12D1801F00FA69ED /* PBXTextBookmark */;
+			8FD0602F12D1801F00FA69ED /* PBXBookmark */ = 8FD0602F12D1801F00FA69ED /* PBXBookmark */;
+			8FD0603012D1801F00FA69ED /* PBXBookmark */ = 8FD0603012D1801F00FA69ED /* PBXBookmark */;
+			8FD0603112D1801F00FA69ED /* PlistBookmark */ = 8FD0603112D1801F00FA69ED /* PlistBookmark */;
+		};
+		sourceControlManager = 8F852174124BC0620061F410 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2D2E34E8119B65B100818397 /* Life */ = {
+		activeExec = 0;
+		executables = (
+			8F85216C124BC0430061F410 /* Life */,
+		);
+	};
+	2D2E34F1119B65ED00818397 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {551, 1014}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{719, 293}";
+		};
+	};
+	2D96900C11A3770300099C8D /* fast.nasm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 585}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 180}";
+		};
+	};
+	8F39072E128A25F600F6A508 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2D96900C11A3770300099C8D /* fast.nasm */;
+		name = "fast.nasm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 0;
+	};
+	8F85216C124BC0430061F410 /* Life */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Life;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8F852174124BC0620061F410 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8F852175124BC0620061F410 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8FD0602E12D1801F00FA69ED /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2D2E34F1119B65ED00818397 /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 293;
+		vrLoc = 719;
+	};
+	8FD0602F12D1801F00FA69ED /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2D5B369011A392CB003AE0AD /* icon.icns */;
+	};
+	8FD0603012D1801F00FA69ED /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2D2E34EC119B65B100818397 /* Life-Info.plist */;
+	};
+	8FD0603112D1801F00FA69ED /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2D2E34EC119B65B100818397 /* Life-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/derekblair/Documents/My Documents/Kujifunza/MacOSX/Life/Life-Info.plist";
+		rLen = 18;
+		rLoc = 0;
+	};
+}

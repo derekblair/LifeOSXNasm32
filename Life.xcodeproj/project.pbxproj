@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2E34F2119B65ED00818397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E34F1119B65ED00818397 /* main.m */; };
+		2D5B369111A392CB003AE0AD /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2D5B369011A392CB003AE0AD /* icon.icns */; };
+		2DB55A65119B7C9F004288C8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB55A64119B7C9F004288C8 /* GLUT.framework */; };
+		2DB55A77119B7CA6004288C8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB55A76119B7CA6004288C8 /* OpenGL.framework */; };
+		67CD7DC5184E53F7003D8ECD /* fast.nasm in Sources */ = {isa = PBXBuildFile; fileRef = 2D96900C11A3770300099C8D /* fast.nasm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D2E34E9119B65B100818397 /* Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Life.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2E34EC119B65B100818397 /* Life-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Life-Info.plist"; sourceTree = "<group>"; };
+		2D2E34F1119B65ED00818397 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D5B369011A392CB003AE0AD /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		2D96900C11A3770300099C8D /* fast.nasm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.nasm; path = fast.nasm; sourceTree = "<group>"; };
+		2DB55A64119B7C9F004288C8 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		2DB55A76119B7CA6004288C8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D2E34E7119B65B100818397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB55A65119B7C9F004288C8 /* GLUT.framework in Frameworks */,
+				2DB55A77119B7CA6004288C8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2E34DA119B657400818397 = {
+			isa = PBXGroup;
+			children = (
+				2D5B369011A392CB003AE0AD /* icon.icns */,
+				2D96900C11A3770300099C8D /* fast.nasm */,
+				2DB55A76119B7CA6004288C8 /* OpenGL.framework */,
+				2DB55A64119B7C9F004288C8 /* GLUT.framework */,
+				2D2E34EA119B65B100818397 /* Products */,
+				2D2E34EC119B65B100818397 /* Life-Info.plist */,
+				2D2E34F1119B65ED00818397 /* main.m */,
+			);
+			sourceTree = "<group>";
+		};
+		2D2E34EA119B65B100818397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D2E34E9119B65B100818397 /* Life.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D2E34E8119B65B100818397 /* Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2E34EF119B65B200818397 /* Build configuration list for PBXNativeTarget "Life" */;
+			buildPhases = (
+				2D2E34E5119B65B100818397 /* Resources */,
+				2D2E34E6119B65B100818397 /* Sources */,
+				2D2E34E7119B65B100818397 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Life;
+			productName = Life;
+			productReference = 2D2E34E9119B65B100818397 /* Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D2E34DC119B657400818397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 2D2E34DF119B657400818397 /* Build configuration list for PBXProject "Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2D2E34DA119B657400818397;
+			productRefGroup = 2D2E34EA119B65B100818397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D2E34E8119B65B100818397 /* Life */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2E34E5119B65B100818397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5B369111A392CB003AE0AD /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2E34E6119B65B100818397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CD7DC5184E53F7003D8ECD /* fast.nasm in Sources */,
+				2D2E34F2119B65ED00818397 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D2E34DD119B657400818397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2D2E34DE119B657400818397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2D2E34ED119B65B200818397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Life-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-Wl,-no_pie",
+				);
+				PRODUCT_NAME = Life;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2D2E34EE119B65B200818397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Life-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-Wl,-no_pie",
+				);
+				PRODUCT_NAME = Life;
+				SDKROOT = macosx;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D2E34DF119B657400818397 /* Build configuration list for PBXProject "Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2E34DD119B657400818397 /* Debug */,
+				2D2E34DE119B657400818397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2E34EF119B65B200818397 /* Build configuration list for PBXNativeTarget "Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2E34ED119B65B200818397 /* Debug */,
+				2D2E34EE119B65B200818397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D2E34DC119B657400818397 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A9FFA70-C47C-4C52-A8EB-B0E66FD181D7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Life</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>597DE1FE4B625A27564F6919519F339609FBDB86</key>
+		<string>https://github.com/derekblair/LifeOSXNasm32.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Life.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>597DE1FE4B625A27564F6919519F339609FBDB86</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/derekblair/LifeOSXNasm32.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>597DE1FE4B625A27564F6919519F339609FBDB86</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>597DE1FE4B625A27564F6919519F339609FBDB86</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LifeOSXNasm32</string>
+		</dict>
+	</array>
+</dict>
+</plist>
