@@ -175,6 +175,7 @@
 					AppKit,
 					"-Wl,-no_pie",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.derekb.life-asm-osx-demo";
 				PRODUCT_NAME = Life;
 				SDKROOT = macosx;
 			};
@@ -202,6 +203,7 @@
 					AppKit,
 					"-Wl,-no_pie",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.derekb.life-asm-osx-demo";
 				PRODUCT_NAME = Life;
 				SDKROOT = macosx;
 				ZERO_LINK = NO;
